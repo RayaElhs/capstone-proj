@@ -1,0 +1,102 @@
+.linear-gradient {
+    background: rgb(238, 174, 202);
+    background-image: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    position: relative;
+    padding-bottom: 200px;
+}
+
+h1 {
+    color: black;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 10%;
+    font-family: "Sacramento", cursive;
+}
+
+#title h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Sacramento", cursive;
+}
+
+.image1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.background-color {
+    background-color: white;
+    padding: 50px;
+}
+
+.image2 {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    padding-top: 80px;
+}
+
+.imgg2 {
+    border-radius: 40%;
+}
+
+#features h2 {
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+p {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#skills {
+    height: 550px;
+    padding-bottom: 70px;
+}
+
+
+h2:nth-child(2) {
+    color: #1d9485;
+    font-size: 55px;
+    padding-right: 70px;
+}
+
+ul {
+    color: #6e526b;
+    font-weight: light;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+h2:nth-child(1) {
+    color: #1d9485;
+    font-size: 55px;
+    padding-right: 70px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+#footer h2 {
+    text-align: left;
+    padding-bottom: 10px;
+
+}
